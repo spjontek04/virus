@@ -1,5 +1,13 @@
 body {
     background: black;
+    overflow: hidden;
+    margin: 0;
+   
+}
+canvas{
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
 }
 /*=====Navbar===========*/
 .navbar .nav-link{
@@ -49,17 +57,16 @@ a:hover{
 
 /*=======Products section=======*/
 #products{
-    background:rgba(156, 20, 20, 0.89);
+    background:rgba(255, 255, 255, 0);
     position: absolute;
     z-index: 1;
+    margin-left: 20%;
+    margin-right: auto;
   }
   .product-title{
-    color: #fff;
+    color: white;
   }
-  .burritofour{
-    height: 200px;
-    width: 300px;
-  }
+  
 /* Float Shadow */
 .single-item {
   display: inline-block;
