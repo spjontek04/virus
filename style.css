@@ -14,24 +14,21 @@ canvas{
   width: 100%;
 }
 /*=====Navbar===========*/
-.navbar .nav-link{
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-    
+.navbar {
+  padding: .8rem;
+  background-color: rgba(0, 0, 0, 0);
+  position:fixed;
+  width: 100%;
+
 }
-.navbar-toggler{
-    outline: none !important;
+
+.navbar-nav li {
+  padding-right: 20px;
 }
-.bg-black{
-    background: rgba(0, 0, 0.89);
-}
-.navbar-brand{
-    text-align:start;
-}
-.nav-item{
-    float: right;
+
+.nav-link {
+  font-size: 1.1em !important;
+  color: rgb(255, 255, 255);
 }
 a{
     position: relative;
