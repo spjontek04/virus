@@ -3,14 +3,14 @@ html{
 }
 body {
     background: black;
-    overflow: hidden;
-    margin: 0;
+    overflow: scroll;
+    
     
 }
 canvas{
-  position: absolute;
+  position:fixed;
   z-index: -1;
-  overflow: hidden;
+  overflow: visible;
 }
 /*=====Navbar===========*/
 .navbar .nav-link{
@@ -63,29 +63,10 @@ a:hover{
     background:rgba(0, 0, 0, 0);
     position: absolute;
     z-index: 1;
-    margin-left: 20%;
-    margin-right: auto;
+    padding-left: 10%;
   }
   .product-title{
-    font-family: Arial, Helvetica, sans-serif;
-    animation: neon5 1.5s ease-in-out infinite alternate;
-    text-align: center;
-    font-size: 7em;
-    margin-bottom: 0;
-    margin-top: 0;
-    line-height: 1;
-    text-decoration: none;
-    color: #fff;
-  }
-  @keyframes neon5 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFC600,
-        0 0 70px #FFC600, 0 0 80px #FFC600, 0 0 100px #FFC600, 0 0 150px #FFC600;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFC600,
-        0 0 35px #FFC600, 0 0 40px #FFC600, 0 0 50px #FFC600, 0 0 75px #FFC600;
-    }
+    color: white;
   }
   
 
@@ -151,7 +132,17 @@ a:hover{
 }
 
   /*===End of Product Section==========*/
-
+/*==Footer===*/
+.footer{
+  background: rgba(0, 0, 0, 0.151);
+  color: #fff;
+  width: 100%;
+  overflow: visible;
+  padding-left: 7%;
+}
+.fab{
+  padding-left: 10px;
+}
 
 
 
