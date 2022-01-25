@@ -11,6 +11,7 @@ canvas{
   position:fixed;
   z-index: -1;
   overflow: visible;
+  width: 100%;
 }
 /*=====Navbar===========*/
 .navbar .nav-link{
@@ -44,7 +45,7 @@ a{
     letter-spacing: 4px;
     overflow: hidden;
     margin-right: 50px;
-   
+    text-align: right;
 }
 a:hover{
     background: #5800FF;
@@ -138,7 +139,7 @@ a:hover{
   color: #fff;
   width: 100%;
   overflow: visible;
-  padding-left: 7%;
+  
 }
 .fab{
   padding-left: 10px;
